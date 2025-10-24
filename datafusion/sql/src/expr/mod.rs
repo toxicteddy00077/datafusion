@@ -20,10 +20,9 @@ use datafusion_expr::planner::{
     PlannerResult, RawBinaryExpr, RawDictionaryExpr, RawFieldAccessExpr,
 };
 use sqlparser::ast::{
-    AccessExpr, BinaryOperator, CastFormat, CastKind, CeilFloorKind,
-    DataType as SQLDataType, DateTimeField, DictionaryField, Expr as SQLExpr,
-    ExprWithAlias as SQLExprWithAlias, MapEntry, StructField, Subscript, TrimWhereField,
-    TypedString, Value, ValueWithSpan,
+    AccessExpr, BinaryOperator, CastFormat, CastKind, CeilFloorKind, DataType as SQLDataType,
+    DictionaryField, Expr as SQLExpr, ExprWithAlias as SQLExprWithAlias, MapEntry,
+    StructField, Subscript, TrimWhereField, TypedString, Value, ValueWithSpan,
 };
 
 use datafusion_common::{
